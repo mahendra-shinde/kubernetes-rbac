@@ -103,7 +103,7 @@
 1.  Switch to new `reader` context and test performing few operations.
 
 	```bash
-	kubect config use-context reader
+	kubectl config use-context reader
 	kubectl auth can-i get pod
 	kubectl auth can-i create pod
 	## You must get "no" response for both tests !
