@@ -42,11 +42,11 @@
 	# specify user-name
 	  name: mahendra
 	spec:
-          request: $CSR
-          signerName: kubernetes.io/kube-apiserver-client
-          expirationSeconds: 86400  # one day
-          usages:
-          - client auth
+ 	  request: $CSR
+ 	  signerName: kubernetes.io/kube-apiserver-client
+ 	  expirationSeconds: 86400  # one day
+ 	  usages:
+ 	  - client auth
 	```
 
 
